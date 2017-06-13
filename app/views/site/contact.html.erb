@@ -1,0 +1,20 @@
+<body>
+	<div class="intro">
+		<h1><a href="/">Olivia Stalcup</a></h1>
+		<div class="nav">
+			<a href="/about">About</a>
+			<a href="/projects">Projects</a>
+			<a href="/contact">Contact</a>
+			<%= link_to "GitHub", "http://github.com/olivia-char", :target => "_blank" %> 
+		</div>
+	</div>
+	<div class="container">
+		<div class="contactBox">
+			 <%= link_to "LinkedIn", "https://www.linkedin.com/in/olivia-stalcup/", :target => "_blank" %> 
+			<%= mail_to "ocstalcup@gmail.com" do %>
+  				<h2>ocstalcup@gmail.com<h2>
+			<% end %>
+		</div>
+	</div>
+</body>
+

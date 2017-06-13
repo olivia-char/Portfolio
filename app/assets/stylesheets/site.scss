@@ -1,0 +1,102 @@
+body {
+	background-image: url(backgroundImg.png);
+	background-size: 100%;
+}
+
+.intro h1 {
+	margin: 35px 0px 0px 525px;
+	font-family: Courier; 	
+	font-size: 50px;
+}
+
+.intro a {
+	color: #1D263B;
+}
+.nav {
+	font-family: Courier;
+	font-size: 25px;
+	margin: 225px 0px 0px 550px;
+}
+
+.nav a {
+	padding: 0px 20px 0px 20px;
+	color: #1D263B;
+}
+.introBox {
+	margin: 250px 0px 500px 510px; 
+	font-family: Courier;
+	color: #1D263B;
+}
+.aboutBox {
+	width: 50%;
+	font-family: Courier;
+	margin: 150px 0px 500px 295px;
+	text-align: center;
+}
+
+.contactBox {
+	width: 50%;
+	font-family: Courier;
+	font-size: 30px;
+	margin: 200px 0px 690px 295px;
+	text-align: center;
+}
+
+.contactBox a {
+	font-size: 30px;
+	font-family: Courier;
+	color: black;
+}
+.projectBox {
+	width: 70%;
+	margin: 120px 0px 410px 275px;
+}
+.box {
+	width:290px; 
+	height:250px; 
+	border-radius:2px; 
+	margin:40px 6px;  
+	display: inline-block;
+}
+.box img {
+	width:290px; 
+	height:250px;
+}
+.box .overlay {
+	width:290px; 
+	height:250px; 
+	background:#fff; 
+	margin:-250px 0px 0px 0px; opacity:0.5; 
+}
+.box a {
+	padding:5px 7px; 
+	border:1px solid #000; 
+	text-decoration:none; 
+	font-family: Courier; 
+	font-size:20px; 
+	margin:-140px 0px 0px 15px; display:inline-block; 
+	opacity:0; 
+	transition:all 0.5s ease-in out;    
+	cursor: pointer;/* z-index: 10000; */position: absolute;
+}
+
+.box .overlay:hover {
+	opacity:0.1; 
+	transition:all 0.5s ease-in-out; width:300px; 
+	margin-left:50px; 
+	float:right; 
+}
+.box:hover {
+	box-shadow:0px 0px 10px #6A6A6A; border:1px solid #9DDBAD;
+	transition:all 0.5s ease-in-out;
+}
+.box:hover a {
+	opacity:1; 
+	background:#FFFFFF; color:#000000; 
+	margin:-40px 0px 0px 15px;  
+	border-radius:1px; 
+}
+.box a:hover { 
+	border:1px solid #9DDBAD;
+	transition:all 0.5s ease-in-out;   
+}
